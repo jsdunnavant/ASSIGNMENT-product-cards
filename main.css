@@ -13,12 +13,25 @@ h3 {
 h5 {
   border: 1px lightblue;
 }
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-color: red;
+  flex-grow: 1;
+  width: 70%;
+  justify-content: center;
+  
+}
 .card {
   display: inline-flex;
   justify-content: space-evenly;
+  border-color: red;
+  text-align: center;
 }
 .container {
   flex-wrap: wrap;
+  justify-content: center;
 }
 header {
   text-align: center;
